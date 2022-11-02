@@ -6,7 +6,16 @@
     right: 0;
 
     .mat-drawer {
-        padding-left: 20px;
         min-width: 200px;
+
+        .mat-button {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
     }
+}
+
+.spacer {
+    flex: 1 1 auto
 }
